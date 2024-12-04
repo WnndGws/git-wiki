@@ -1,4 +1,6 @@
 # Index
+
+<!-- toc -->
 ## Git
 ### [0001_adding_pre-commit_hook.md](git/0001_adding_pre-commit_hook.md)
 ### [0002_readme_guidlines.md](git/0002_readme_guidlines.md)

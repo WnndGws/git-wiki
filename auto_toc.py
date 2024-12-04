@@ -14,7 +14,7 @@ def generate_readme() -> None:
         d for d in current_dir.iterdir() if d.is_dir() and not d.name.startswith(".")
     ]
 
-    output_lines = ["# Index"]
+    output_lines = ["# Index\n\n<!-- toc -->"]
 
     for subdir in sorted(subdirs):
         subdir_name = subdir.name.capitalize()
