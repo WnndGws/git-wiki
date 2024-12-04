@@ -3,6 +3,8 @@
 <!-- toc -->
 ## Git
 ### [0001_adding_pre-commit_hook.md](git/0001_adding_pre-commit_hook.md)
+* **Title**: Standardization of pre-commit hooks
+* **Status**: Accepted
 ### [0002_readme_guidlines.md](git/0002_readme_guidlines.md)
 * **Title**: Standardization of README Structure for New Projects
 * **Status**: Accepted
