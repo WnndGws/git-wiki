@@ -1,5 +1,3 @@
-# Architectural Decision Record (ADR)
-
 ## Title: Adoption of Preferred Toolset and Practices for Python Projects
 
 ### Status: Accepted
