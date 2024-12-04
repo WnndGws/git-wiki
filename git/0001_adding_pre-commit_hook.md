@@ -27,7 +27,7 @@ Transition from the custom Git pre-commit hook to the `pre-commit` framework and
        hooks:
          - id: auto-toc
            name: Auto TOC Generator
-           entry: ./auto_toc.py
+           entry: uv run python ./auto_toc.py
            language: python
            stages: [pre-commit]
          - id: trufflehog
