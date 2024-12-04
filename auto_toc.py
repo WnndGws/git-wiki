@@ -44,17 +44,6 @@ def generate_readme():
                             heading_text = re.sub(
                                 r"^(Title|Status)", r"**\1**", heading_text
                             )
-                            # Color 'Accepted' green and 'Obsolete' red
-                            heading_text = re.sub(
-                                r"Accepted",
-                                r'<span style="color:green">Accepted</span>',
-                                heading_text,
-                            )
-                            heading_text = re.sub(
-                                r"Obsolete",
-                                r'<span style="color:red">Obsolete</span>',
-                                heading_text,
-                            )
                             output_lines.append(f"* {heading_text}")
 
     with open("readme.md", "w", encoding="utf-8") as f:
