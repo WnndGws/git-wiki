@@ -1,4 +1,1 @@
 .gitattributes !filter !diff
-0001_adding_pre-commit_hook.md filter=git-crypt diff=git-crypt
-0002_readme_guidlines.md filter=git-crypt diff=git-crypt
-0003_choosing_a_licence.md filter=git-crypt diff=git-crypt
