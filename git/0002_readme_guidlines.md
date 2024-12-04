@@ -1,5 +1,3 @@
-# Architectural Decision Record (ADR)
-
 ## Title: Standardization of README Structure for New Projects
 
 ### Status: Accepted
