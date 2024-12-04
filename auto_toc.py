@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 """A script to create my top level toc."""
 
-import re
 from pathlib import Path
+
+import regex
 
 
 def generate_readme():
@@ -36,7 +37,7 @@ def generate_readme():
                             "Status"
                         ):
                             # Bold 'Title' or 'Status' at the start
-                            heading_text = re.sub(
+                            heading_text = regex.sub(
                                 r"^(Title|Status)", r"**\1**", heading_text
                             )
                             output_lines.append(f"* {heading_text}")

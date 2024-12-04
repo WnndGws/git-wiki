@@ -1,2 +1,4 @@
 *.md filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
+0001_tools_used.md filter=git-crypt diff=git-crypt
+0002_using_uv.md filter=git-crypt diff=git-crypt
