@@ -6,7 +6,8 @@ from pathlib import Path
 import regex
 
 
-def generate_readme():
+def generate_readme() -> None:
+    """Generate a readme file with a table of contents of subdirectories."""
     current_dir = Path()
     # Get subdirectories, excluding any starting with a dot
     subdirs = [
@@ -30,19 +31,17 @@ def generate_readme():
             with md_file.open("r", encoding="utf-8") as f:
                 lines = f.readlines()
                 for line in lines:
-                    line = line.strip()
-                    if line.startswith("#"):
-                        heading_text = line.lstrip("#").strip()
-                        if heading_text.startswith("Title") or heading_text.startswith(
-                            "Status"
-                        ):
+                    stripped_line = line.strip()
+                    if stripped_line.startswith("#"):
+                        heading_text = stripped_line.lstrip("#").strip()
+                        if heading_text.startswith(("Title", "Status")):
                             # Bold 'Title' or 'Status' at the start
                             heading_text = regex.sub(
                                 r"^(Title|Status)", r"**\1**", heading_text
                             )
                             output_lines.append(f"* {heading_text}")
 
-    with open("readme.md", "w", encoding="utf-8") as f:
+    with Path.open("readme.md", "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
 
 
