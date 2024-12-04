@@ -10,3 +10,5 @@ source .venv/bin/activate
 ```zsh
 uv add addict pathlib tinydb orjson alive-progress anybadge loguru rich humanize arrow schedule pyspy configparser questionary typer httpx tenacity uv plumbum pydantic pyright regex thefuzz ruff robyn maturin polars pytest
 ```
+
+- Can then run the file in the environment using `uv run python my_file.py`
