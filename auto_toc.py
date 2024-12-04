@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """A script to create my top level toc."""
 
+import re
 from pathlib import Path
 
 import typer
@@ -39,6 +40,21 @@ def generate_readme():
                         if heading_text.startswith("Title") or heading_text.startswith(
                             "Status"
                         ):
+                            # Bold 'Title' or 'Status' at the start
+                            heading_text = re.sub(
+                                r"^(Title|Status)", r"**\1**", heading_text
+                            )
+                            # Color 'Accepted' green and 'Obsolete' red
+                            heading_text = re.sub(
+                                r"Accepted",
+                                r'<span style="color:green">Accepted</span>',
+                                heading_text,
+                            )
+                            heading_text = re.sub(
+                                r"Obsolete",
+                                r'<span style="color:red">Obsolete</span>',
+                                heading_text,
+                            )
                             output_lines.append(f"* {heading_text}")
 
     with open("readme.md", "w", encoding="utf-8") as f:
