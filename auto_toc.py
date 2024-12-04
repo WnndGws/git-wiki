@@ -4,6 +4,7 @@
 from pathlib import Path
 
 import regex
+from plumbum import local
 
 
 def generate_readme() -> None:
@@ -41,8 +42,12 @@ def generate_readme() -> None:
                             )
                             output_lines.append(f"* {heading_text}")
 
-    with Path.open("readme.md", "w", encoding="utf-8") as f:
+    with Path.open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
+
+    # Define a shell command
+    markdown_toc = local["markdown-toc"]
+    markdown_toc("-i", "README.md")
 
 
 def update_gitattributes() -> None:
