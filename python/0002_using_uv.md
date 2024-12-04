@@ -10,6 +10,7 @@ public: true
 ```zsh
 uv venv --python 3.13
 source .venv/bin/activate
+uv init
 ```
 
 - Install toolchain (as needed)

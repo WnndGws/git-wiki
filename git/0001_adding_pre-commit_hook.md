@@ -32,9 +32,9 @@ Transition from the custom Git pre-commit hook to the `pre-commit` framework and
            stages: [pre-commit]
          - id: trufflehog
            name: TruffleHog
-           entry: trufflehog git file://. --since-commit HEAD --no-verification --fail
+           entry: zsh -c 'trufflehog git file://. --since-commit HEAD --only-verified --fail'
            language: system
-           stages: [pre-commit]
+           stages: ["commit", "push"]
    ```
 
 1. **Install the pre-commit hooks:**

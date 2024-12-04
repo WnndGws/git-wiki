@@ -1,0 +1,15 @@
+---
+repos:
+  - repo: local
+    hooks:
+      - id: auto-toc
+        name: Auto TOC Generator
+        entry: uv run python ./auto_toc.py
+        language: python
+        stages: [pre-commit]
+      - id: trufflehog
+        name: TruffleHog
+        entry: zsh -c 'trufflehog git file://. --since-commit HEAD --only-verified
+          --fail'
+        language: system
+        stages: [commit, push]
