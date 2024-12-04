@@ -13,6 +13,65 @@ To enhance development efficiency and expand Python skills within the team, we a
 - **Preferred Toolset**: We will utilize the following Python libraries and frameworks in our projects:
 
   - `addict`, `pathlib`, `tinydb`, `orjson`, `alive-progress`, `anybadge`, `loguru`, `rich`, `humanise`, `arrow`, `schedule`, `pyspy`, `configparser`, `questionary`, `typer`, `httpx`, `tenacity`, `uv`, `plumbum`, `pydantic`, `pyright`, `regex`, `thefuzz`, `ruff`, `robyn`, `maturin`, `polars`, `pytest`.
+  - Here's an overview of each package in your toolkit:
+
+- **addict**: Provides a dictionary subclass that allows attribute-style access to keys, enabling dot notation for dictionary elements.
+
+- **pathlib**: Offers an object-oriented interface for filesystem paths, simplifying path manipulations and making code more readable.
+
+- **tinydb**: A lightweight, document-oriented database written in pure Python, ideal for small projects and applications.
+
+- **orjson**: A fast JSON library for Python that serializes dataclasses, datetimes, and numpy efficiently.
+
+- **alive-progress**: Enables visually appealing and animated progress bars in the terminal, enhancing user experience during long-running processes.
+
+- **anybadge**: Allows the generation of simple badges in SVG format, useful for displaying build statuses or other metrics.
+
+- **loguru**: Simplifies logging in Python with an intuitive syntax and additional features like sink management and message formatting.
+
+- **rich**: Provides rich text and beautiful formatting in the terminal, including support for tables, progress bars, and syntax highlighting.
+
+- **humanize**: Adds human-friendly representations of data, such as turning a datetime into a "time ago" string.
+
+- **arrow**: Offers a more intuitive way to work with dates and times in Python, improving upon the standard datetime module.
+
+- **schedule**: Facilitates job scheduling for Python functions, allowing tasks to be run at specific intervals.
+
+- **py-spy**: A sampling profiler for Python programs, useful for identifying performance bottlenecks.
+
+- **configparser**: Included in Python's standard library, it provides a way to handle configuration files.
+
+- **questionary**: Enables the creation of interactive user prompts in the terminal, enhancing user interaction.
+
+- **typer**: Simplifies the creation of command-line interfaces, leveraging Python's type hints for automatic argument parsing.
+
+- **httpx**: A fully featured HTTP client for Python, supporting asynchronous requests and HTTP/2.
+
+- **tenacity**: Provides retrying behavior for functions, allowing automatic retries with customizable logic.
+
+- **uv**: A Python environment manager that simplifies the management of Python versions and virtual environments.
+
+- **plumbum**: Offers shell combinators and command-line program integration, facilitating the construction of shell pipelines.
+
+- **pydantic**: Enforces type annotations at runtime and provides data validation using Python's type hints.
+
+- **pyright**: A static type checker for Python, designed to be fast and to work with large codebases.
+
+- **regex**: An alternative to Python's built-in re module, offering extended regular expression support.
+
+- **thefuzz**: Performs fuzzy string matching, useful for finding approximate matches between strings.
+
+- **ruff**: A fast Python linter, written in Rust, designed to catch common errors and enforce coding standards.
+
+- **robyn**: A high-performance, asynchronous web framework for Python, built with Rust for speed.
+
+- **maturin**: Facilitates the building and publishing of Rust-based Python packages, streamlining the integration of Rust code into Python projects.
+
+- **polars**: A fast DataFrame library implemented in Rust, offering efficient data manipulation capabilities.
+
+- **pytest**: A framework that makes it easy to write simple and scalable test cases for Python code.
+
+These tools collectively enhance Python development by providing functionalities ranging from data handling and user interaction to performance profiling and environment management.
 
 - **Rust Integration**: Employ Rust-based modules where appropriate using `pyo3` to write performant code that integrates seamlessly with Python.
 
