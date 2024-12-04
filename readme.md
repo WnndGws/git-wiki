@@ -1,6 +1,8 @@
 # Index
 ## Docker
 ## Git
+### [0003_choosing_a_licence.md](git/0003_choosing_a_licence.md)
+* **Title**: Adoption of GPLv3 License for Open Source Projects
 ### [0001_adding_pre-commit_hook.md](git/0001_adding_pre-commit_hook.md)
 ### [0002_readme_guidlines.md](git/0002_readme_guidlines.md)
 * **Title**: Standardization of README Structure for New Projects
