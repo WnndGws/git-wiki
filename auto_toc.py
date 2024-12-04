@@ -23,7 +23,7 @@ def generate_readme():
         subdir_name = subdir.name.capitalize()
         output_lines.append(f"## {subdir_name}")
 
-        md_files = list(subdir.glob("*.md"))
+        md_files = sorted(subdir.glob("*.md"), key=lambda x: x.name.lower())
         for md_file in md_files:
             md_file_name = md_file.name
             md_file_rel_path = md_file.relative_to(current_dir)
