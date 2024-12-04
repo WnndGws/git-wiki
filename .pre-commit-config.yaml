@@ -12,4 +12,4 @@ repos:
         entry: zsh -c 'trufflehog git file://. --since-commit HEAD --only-verified
           --fail'
         language: system
-        stages: [commit, push]
+        stages: [pre-commit, pre-push]
