@@ -2,8 +2,6 @@
 
 ## Title: Adoption of GPLv3 License for Open Source Projects
 
----
-
 ### **Status**: Accepted
 
 ### **Context**
