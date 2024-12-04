@@ -45,7 +45,8 @@ def generate_readme() -> None:
         f.write("\n".join(output_lines))
 
 
-def update_gitattributes():
+def update_gitattributes() -> None:
+    """Update gitattributes to mark markdown files for git-crypt processing."""
     current_dir = Path()
     # Get subdirectories, excluding any starting with a dot
     subdirs = [
