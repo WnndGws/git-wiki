@@ -2,6 +2,8 @@
 
 <!-- toc -->
 
+- [Arch](#arch)
+  * [install.md](#installmd)
 - [Git](#git)
   * [0001_adding_pre-commit_hook.md](#0001_adding_pre-commit_hookmd)
   * [0002_readme_guidlines.md](#0002_readme_guidlinesmd)
@@ -15,6 +17,8 @@
 
 <!-- tocstop -->
 
+## Arch
+### [install.md](arch/install.md)
 ## Git
 ### [0001_adding_pre-commit_hook.md](git/0001_adding_pre-commit_hook.md)
 * **Title**: Standardization of pre-commit hooks
