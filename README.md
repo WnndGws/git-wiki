@@ -3,6 +3,7 @@
 <!-- toc -->
 
 - [Arch](#arch)
+  * [gpg.md](#gpgmd)
   * [install.md](#installmd)
 - [Git](#git)
   * [0001_adding_pre-commit_hook.md](#0001_adding_pre-commit_hookmd)
@@ -18,6 +19,7 @@
 <!-- tocstop -->
 
 ## Arch
+### [gpg.md](arch/gpg.md)
 ### [install.md](arch/install.md)
 ## Git
 ### [0001_adding_pre-commit_hook.md](git/0001_adding_pre-commit_hook.md)
