@@ -13,3 +13,4 @@
 ## Making changes
 
 - check encryption with `git-crypt status`
+  - can unlock the repo using gpg key assuming it was locked using `git-crypt add-gpg-user KEY` (which is what I use, just make sure to use the E key)
