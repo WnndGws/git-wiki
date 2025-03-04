@@ -15,7 +15,7 @@ def generate_readme() -> None:
         d for d in current_dir.iterdir() if d.is_dir() and not d.name.startswith(".")
     ]
 
-    output_lines = ["# Index\n\n<!-- toc -->"]
+    output_lines = ["# Index\n\n<!--ts-->"]
 
     for subdir in sorted(subdirs):
         subdir_name = subdir.name.capitalize()
@@ -42,12 +42,14 @@ def generate_readme() -> None:
                             )
                             output_lines.append(f"* {heading_text}")
 
+            output_lines.append("\n\n<!--te-->")
+
     with Path.open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
 
     # Define a shell command
-    markdown_toc = local["markdown-toc"]
-    markdown_toc("-i", "README.md")
+    markdown_toc = local["gh-md-toc"]
+    markdown_toc("--insert", "--no-backup", "README.md")
 
 
 def update_gitattributes() -> None:

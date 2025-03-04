@@ -1,0 +1,3 @@
+0001_install.md filter=git-crypt diff=git-crypt
+0002_gpg.md filter=git-crypt diff=git-crypt
+0003_ssh.md filter=git-crypt diff=git-crypt
