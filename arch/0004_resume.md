@@ -78,7 +78,7 @@ Format the response as a JSON object with these keys:
 "metadata": {
 "key_points_addressed": ["list of main points addressed"],
 "skills_highlighted": ["list of skills mentioned"],
-"resume_matches": ["specific experiences/skills from resume that match job requirements"],
+"resume_matches": ["specific experiences/skills from resume that mtch job requirements"],
 "missing_recommended_info": ["optional fields that were missing but would strengthen the application if available"],
 "tone_analysis": "brief analysis of the email's tone"
 }
