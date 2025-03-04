@@ -7,30 +7,43 @@ public: true
 
 # Schedule
 
+- Each _tick_ is 12 months corresponding to the following dates:
+  - 08 March 2025
+  - 08 March 2026
+  - 08 March 2027
+  - 08 March 2028
+  - 08 March 2029
+  - 08 March 2030
+  - 08 March 2031
+  - 08 March 2032
+  - 08 March 2033
+  - 08 March 2034
+  - 08 March 2035
+
 ## Engine
 
 - Engine accessory drive belt
 
-  - [ ] 08 March 2025 - Inspect
-  - [ ] 08 March 2026 - Inspect
-  - [ ] 08 March 2027 - Replace
-  - [ ] 08 March 2028 - Inspect
-  - [ ] 08 March 2029 - Inspect
-  - [ ] 08 March 2030 - Replace
+  - I x I x R x I x I x R
+  - Next Date:
+    - Inspect 2025
 
 - Valve clearance
 
-  - [ ] 08 March 2025 - Inspect
-  - [ ] 08 March 2026 - Inspect
-  - [ ] 08 March 2027 - Inspect
-  - [ ] 08 March 2028 - Inspect
-  - [ ] 08 March 2029 - Inspect
-  - [ ] 08 March 2030 - Inspect
+  - I x I x I x I x I x I
+  - Next Date:
+    - Inspect 2025
 
 - Engine oil
-  - [ ] 08 March 2025 - Replace
-  - [ ] 08 March 2026 - Replace
-  - [ ] 08 March 2027 - Replace
-  - [ ] 08 March 2028 - Replace
-  - [ ] 08 March 2029 - Replace
-  - [ ] 08 March 2030 - Replace
+
+  - R R R R R R R R R R R
+  - Next Date:
+    - Replace 2025
+
+- Engine coolant
+
+- Exhaust system
+
+## Ignition
+
+- Spark Plugs
