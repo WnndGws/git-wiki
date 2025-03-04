@@ -22,7 +22,7 @@
       * [<a href="python/0002_using_uv.md">0002_using_uv.md</a>](python/0002_using_uv.md)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: wynand, at: Tue 04 Mar 2025 12:29:02 AEDT -->
+<!-- Added by: wynand, at: Tue 04 Mar 2025 12:33:00 AEDT -->
 
 <!--te-->
 ### [0002_gpg.md](arch/0002_gpg.md)
