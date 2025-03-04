@@ -42,7 +42,7 @@ def generate_readme() -> None:
                             )
                             output_lines.append(f"* {heading_text}")
 
-            output_lines.append("\n\n<!--te-->")
+    output_lines.append("\n\n<!--te-->")
 
     with Path.open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
