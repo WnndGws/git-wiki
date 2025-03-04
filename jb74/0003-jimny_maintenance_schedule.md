@@ -5,7 +5,15 @@ date: 2025-03-04 11:11:42
 public: true
 ---
 
-# Schedule
+# Maintenance Schedule for my 2023 JB74
+
+**Date:** 2025-03-04
+
+**Status:** Accepted
+
+---
+
+## Schedule
 
 - Each _tick_ is 12 months corresponding to the following dates:
 
@@ -47,7 +55,7 @@ public: true
   - [ ] Replace engine coolant
   - [ ] Replace engine oil
 
-## Engine
+### Engine
 
 - Engine accessory drive belt
   - I x I x R x I x I x R
@@ -70,14 +78,14 @@ public: true
   - Next Date:
     - Inspect 2025
 
-## Ignition
+### Ignition
 
 - Spark Plugs
   - I x I x R x I x I x R
   - Next Date:
     - Inspect 2025
 
-## Fuel
+### Fuel
 
 - Air Filter
   - I R I R I R I R I R I
@@ -96,7 +104,7 @@ public: true
   - Next Date:
     - Replace 2027
 
-## Emission Control System
+### Emission Control System
 
 - PCV Valve
   - x x I x x x I x x x I
@@ -107,7 +115,7 @@ public: true
   - Next Date:
     - Inspect 2029
 
-## Brake
+### Brake
 
 - Front Brakes
   - I I I I I I I I I I I
@@ -130,7 +138,7 @@ public: true
   - Next Date:
     - Inspect 2025
 
-## Chassis and Body
+### Chassis and Body
 
 - Clutch fluid
   - R x R x R x R x R x R
