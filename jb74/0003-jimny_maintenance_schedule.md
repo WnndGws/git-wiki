@@ -8,6 +8,7 @@ public: true
 # Schedule
 
 - Each _tick_ is 12 months corresponding to the following dates:
+
   - 08 March 2025
   - 08 March 2026
   - 08 March 2027
@@ -19,6 +20,32 @@ public: true
   - 08 March 2033
   - 08 March 2034
   - 08 March 2035
+
+- Next Date is **08 March 2025**
+  - [ ] Inspect Air conditioner filter element
+  - [ ] Inspect Propeller shafts
+  - [ ] Inspect Steering system
+  - [ ] Inspect Suspension system
+  - [ ] Inspect Wheel bearings
+  - [ ] Inspect break hoses and pipes
+  - [ ] Inspect engine accessory drive belt
+  - [ ] Inspect exhaust system
+  - [ ] Inspect front brakes
+  - [ ] Inspect fuel air filter
+  - [ ] Inspect fuel lines
+  - [ ] Inspect fuel tank
+  - [ ] Inspect rear brakes
+  - [ ] Inspect spark plugs
+  - [ ] Inspect tyres
+  - [ ] Inspect valve clearance
+  - [ ] Inspect wheels
+  - [ ] Replace Differential oil
+  - [ ] Replace Manual Transmission oil
+  - [ ] Replace Transfer oil
+  - [ ] Replace break fluid
+  - [ ] Replace clutch fluid
+  - [ ] Replace engine coolant
+  - [ ] Replace engine oil
 
 ## Engine
 
@@ -64,6 +91,10 @@ public: true
   - I x I x I x I x I x I
   - Next Date:
     - Inspect 2025
+- Fuel filter
+  - x x R x x R x x R x x
+  - Next Date:
+    - Replace 2027
 
 ## Emission Control System
 
@@ -86,7 +117,7 @@ public: true
   - I x I x I x I x I x I
   - Next Date:
     - Inspect 2025
-- Back hoses and pipes
+- Break hoses and pipes
   - I x I x I x I x I x I
   - Next Date:
     - Inspect 2025
