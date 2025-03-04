@@ -42,8 +42,63 @@ public: true
 
 - Engine coolant
 
+  - R x R x R x R x R x R
+  - Next Date:
+    - Replace 2025
+
 - Exhaust system
+  - I x I x I x I x I x I
+  - Next Date:
+    - Inspect 2025
 
 ## Ignition
 
 - Spark Plugs
+  - I x I x R x I x I x R
+  - Next Date:
+    - Inspect 2025
+
+## Fuel
+
+- Air Filter
+
+  - I R I R I R I R I R I
+  - Next Date:
+    - Inspect 2025
+
+- Fuel Lines
+
+  - I x I x I x I x I x I
+  - Next Date:
+    - Inspect 2025
+
+- Fuel Tank
+  - I x I x I x I x I x I
+  - Next Date:
+    - Inspect 2025
+
+## Emission Control System
+
+- PCV Valve
+
+  - x x I x x x I x x x I
+  - Next Date:
+    - Inspect 2027
+
+- Fuel evaporative emission control system
+  - x x x x I x x x x x I
+  - Next Date:
+    - Inspect 2029
+
+## Brake
+
+- Front Brakes
+
+  - I I I I I I I I I I I
+  - Next Date:
+    - Inspect 2025
+
+- Back Brakes
+  - I x I x I x I x I x I
+  - Next Date:
+    - Inspect 2025
