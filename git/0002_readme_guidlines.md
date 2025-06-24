@@ -11,11 +11,18 @@ public: true
 
 ### Context
 
-Clear and consistent documentation is essential for the effective collaboration, maintenance, and onboarding of team members in any software project. Historically, inconsistencies in README files have led to confusion, miscommunication, and increased time spent understanding project setups and functionalities. To mitigate these issues, there is a need to establish a standardized README structure that all new projects will adhere to.
+Clear and consistent documentation is essential for the effective collaboration,
+maintenance, and onboarding of team members in any software project.
+Historically, inconsistencies in README files have led to confusion,
+miscommunication, and increased time spent understanding project setups and
+functionalities.
+To mitigate these issues, there is a need to establish a standardized README
+structure that all new projects will adhere to.
 
 ### Decision
 
-All new projects will include a README file that follows the specified 12-section structure:
+All new projects will include a README file that follows the specified
+12-section structure:
 
 1. **Introduction**
 
@@ -93,30 +100,47 @@ All new projects will include a README file that follows the specified 12-sectio
 
 **Benefits:**
 
-- **Consistency:** Ensures all team members and external collaborators can easily navigate and understand new projects.
-- **Efficiency:** Reduces time spent on onboarding and decreases the learning curve for new contributors.
-- **Professionalism:** Presents a polished and standardized image to external stakeholders and open-source communities.
-- **Maintenance:** Simplifies future updates and maintenance by having a clear documentation structure.
+- **Consistency:** Ensures all team members and external collaborators can
+  easily navigate and understand new projects.
+- **Efficiency:** Reduces time spent on onboarding and decreases the learning
+  curve for new contributors.
+- **Professionalism:** Presents a polished and standardized image to external
+  stakeholders and open-source communities.
+- **Maintenance:** Simplifies future updates and maintenance by having a clear
+  documentation structure.
 
 **Drawbacks:**
 
-- **Initial Effort:** Requires additional time during the project setup phase to complete all sections of the README.
-- **Overhead for Small Projects:** Might be cumbersome for simple scripts or small projects where some sections are not applicable.
+- **Initial Effort:** Requires additional time during the project setup phase to
+  complete all sections of the README.
+- **Overhead for Small Projects:** Might be cumbersome for simple scripts or
+  small projects where some sections are not applicable.
 
 ### Rationale
 
-Implementing a standardized README structure addresses the common challenges associated with inconsistent documentation. By outlining clear expectations for documentation, we facilitate better communication within the team and with any external parties involved. This structure is comprehensive yet flexible, allowing for sections to be marked as "if necessary," ensuring relevance to projects of varying sizes and complexities.
+Implementing a standardized README structure addresses the common challenges
+associated with inconsistent documentation.
+By outlining clear expectations for documentation, we facilitate better
+communication within the team and with any external parties involved.
+This structure is comprehensive yet flexible, allowing for sections to be marked
+as "if necessary," ensuring relevance to projects of varying sizes and
+complexities.
 
 ### Alternatives Considered
 
-- **Minimalist README:** Using a simplified README with only basic information. Rejected due to insufficient detail for complex projects.
-- **Automated Documentation Tools:** Utilizing tools that generate documentation from code comments. While useful, they do not replace the need for a well-structured README that provides high-level insights and instructions.
+- **Minimalist README:** Using a simplified README with only basic information.
+  Rejected due to insufficient detail for complex projects.
+- **Automated Documentation Tools:** Utilizing tools that generate documentation
+  from code comments.
+  While useful, they do not replace the need for a well-structured README that
+  provides high-level insights and instructions.
 
 ### Related Decisions
 
-- **ADR on Preferred Toolset Adoption:** Aligns with the decision to standardize tools and practices across projects for consistency and efficiency.
+- **ADR on Preferred Toolset Adoption:** Aligns with the decision to standardize
+  tools and practices across projects for consistency and efficiency.
 
 ### References
 
-- [Markdown Guide for READMEs](https://www.markdownguide.org/basic-syntax/)
-- [Best Practices for README Files](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)
+- [Markdown Guide for READMEs](https://www.markdownguide.org/basic-syntax/)
+- [Best Practices for README Files](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)

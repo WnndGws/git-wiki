@@ -63,18 +63,14 @@ def update_gitattributes() -> None:
     for subdir in subdirs:
         # Read the existing .gitattributes file if it exists
         gitattributes_path = subdir / ".gitattributes"
-        existing_entries = set()
-        if gitattributes_path.exists():
-            with gitattributes_path.open("r", encoding="utf-8") as f:
-                existing_entries = {line.strip() for line in f if line.strip()}
 
-        # Entries to include in .gitattributes
-        entries = set(existing_entries)
-
+        entries: list = []
         # Get markdown files in the subdirectory
         md_files = list(subdir.glob("*.md"))
         for md_file in md_files:
             with md_file.open("r", encoding="utf-8") as f:
+                # Default false, change to true if explicit
+                is_public = "false"
                 content = f.read()
                 # Extract front matter
                 match = regex.match(r"^---\n(.*?)\n---\n", content, regex.DOTALL)
@@ -83,14 +79,12 @@ def update_gitattributes() -> None:
                     # Check if public: true
                     public_match = regex.search(r"public:\s*(true|false)", front_matter)
                     if public_match:
-                        is_public = public_match.group(1).lower() == "true"
-                        if is_public:
-                            continue  # Skip adding this file to .gitattributes
-                # If we get here, we need to add the filename to .gitattributes
-                entries.add(f"{md_file.name} filter=git-crypt diff=git-crypt")
+                        is_public = public_match.group(1).lower()
+            if not is_public == "true":
+                entries.append(f"{md_file.name} filter=git-crypt diff=git-crypt")
 
         # Write the entries to the .gitattributes file, sorted
-        entries = sorted(entries)
+        print(entries)
         with gitattributes_path.open("w", encoding="utf-8") as f:
             for entry in entries:
                 f.write(f"{entry}\n")
