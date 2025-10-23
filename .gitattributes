@@ -1,4 +1,2 @@
 .gitattributes !filter !diff
-arch/gpg.md filter=git-crypt diff=git-crypt
-arch/install.md filter=git-crypt diff=git-crypt
-personal/training/* filter=git-crypt diff=git-crypt
+**.enc filter=git-crypt diff=git-crypt
