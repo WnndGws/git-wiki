@@ -1,0 +1,26 @@
+---
+title: 0001-new-python-project
+author: Wynand Gouws
+date: 2026-02-06 15:09:32
+public: true
+---
+
+# Creating a new Python project
+
+```zsh
+$ mkdir project
+$ cd project
+$ uv init && uv venv && source .venv/bin/activate
+$ mkdir -p src/{core,api,data,models,utils,config}
+$ cd ..
+$ git-town init
+
+## When and as needed
+$ mkdir -p tests
+$ mkdir -p docs/{api,usage}
+$ mkdir -p config
+```
+
+# References
+
+* <https://medium.com/@adityaghadge99/python-project-structure-why-the-src-layout-beats-flat-folders-and-how-to-use-my-free-template-808844d16f35>
