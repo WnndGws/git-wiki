@@ -12,7 +12,6 @@ $ mkdir project
 $ cd project
 $ uv init && uv venv && source .venv/bin/activate
 $ mkdir -p src/{core,api,data,models,utils,config}
-$ cd ..
 $ git-town init
 
 ## When and as needed
