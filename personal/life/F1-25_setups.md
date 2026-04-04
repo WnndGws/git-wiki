@@ -151,12 +151,18 @@ All tweaked by me, some of them are crap
 
 ### Zandvoordt
 
+* Start on softs
+* 75 (90 with drs), 50 lift and down to 4th, crane on right lift and down one, 50 down to 2nd, added road on right, 100 turn early, crane on right
+* Speed3
+* aero 40/40
+* trans 30/30
 * 27, 22.5, 26, 24
 * good
 
 ### Monza
 
-* 29.5 29.5 23.5, 23.7
+* 150, 100, 25 brake and down 2, 25 brake and down 2, 125, 50
+* 26.5 29.5 21.5, 24.0
 * Front wing 0
 * Rear wing 2
 
@@ -164,18 +170,39 @@ All tweaked by me, some of them are crap
 
 ### Baku
 
-* Same thing, crashes everywhere
+* red, orange, black sign, 100, 90, orange, black, start of red,
+* Speed5
+* Aero 0, 8
+* diff 70 30
 
 ### Singapore
 
+* 100, down on line, black, black, black, 75 (between 1st and 2nd), 50, corner, 100 which is middle, 100 minus which is 1st, black
+* speed 3
+* Go more downforce next time
+* aero 22 22
 * two stops good
 * Max Max Low Low
 * Balanced preset next time
 
 ### Texas
 
+* Black, down to 5th, 90, 150, apex, red plus, black, black
+* turn points:
+  * turn in 3rd while down shifting
+  * clip both outside red
+  * turn at final yellow
+  * turn at 50
+  * turn at 50
+  * turn while time
+  * turn under blue sign
+  * turn as soon as in 4th
+  * turn as soon as in 2nd
 * R R 25.5 25.5
 * Preset 2
+* aero 40 36
+* trans 50 30
+* susp 41 10 12 16 20 45
 * Hards are goatm softs last 5-6 laps
 
 ### Mexico
