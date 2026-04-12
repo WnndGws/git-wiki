@@ -7,6 +7,18 @@ public: true
 
 # Adding GTX-1070 to Ubuntu server
 
+* Ran the following commands after using ArchWiki to determine which drivers are needed
+
+```bash
+sudo add-apt-repository restricted multiverse
+sudo apt update && sudo apt upgrade && sudo apt auto-remove
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo ubuntu-drivers list
+sudo ubuntu-drivers install --gpgpu nvidia:580-server
+```
+
+* NB reboot!!!
+
 # References
 
 * freedesktop.org (2025). CodeNames.freedesktop.org. <https://nouveau.freedesktop.org/CodeNames.html#NV130>
