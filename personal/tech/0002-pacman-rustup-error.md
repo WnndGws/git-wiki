@@ -12,4 +12,8 @@ public: true
 * Running `pikaur -Syu` gives this error:
   * `rustup could not choose a version of cargo to run, because one wasn't specified explicitly, and no default is configured.`
 
+* `rustup toolchain list` returns a version which is installed correctly
+
+## Solution
+
 # References
