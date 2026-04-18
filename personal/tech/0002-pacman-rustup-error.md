@@ -16,4 +16,7 @@ public: true
 
 ## Solution
 
+* this time running `rustup default stable` without root worked
+  * last time it didnt but oh well?
+
 # References
