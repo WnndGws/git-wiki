@@ -202,7 +202,7 @@ All tweaked by me, some of them are crap
 * Preset 2
 * aero 40 36
 * trans 50 30
-* susp 41 10 12 16 20 45
+* susp 41 10 12 16 20 50
 * Hards are goatm softs last 5-6 laps
 
 ### Mexico
@@ -211,6 +211,7 @@ All tweaked by me, some of them are crap
 * aero 30,36
 * suspension 38 29 12 6 25 50
 * dont pit early
+* crane, 100, 50, banner, red
 
 ### Brazil
 
