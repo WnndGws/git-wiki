@@ -215,6 +215,10 @@ All tweaked by me, some of them are crap
 
 ### Brazil
 
+* 100, concrete, 50, inside, inside, close to blue
+* wings: 26/19
+* Diff off 25
+* Susp: 40 1 2.5 18 20 40
 * 28 25 22 22
 * Trim 3
 * dont fuck with fuel levels
@@ -222,6 +226,9 @@ All tweaked by me, some of them are crap
 ### Las Vegas
 
 * R R L L
+* Low wings
+* susp geo L -2 L 0.1
+* susp R 5 5 20 24 48
 
 ### Qatar
 
