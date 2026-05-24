@@ -215,6 +215,9 @@ All tweaked by me, some of them are crap
 
 ### Brazil
 
+* Purple overtake orange speed
+* Equal under and overcut
+* Corners 1 and 4 of 15
 * 100, concrete, 50, inside, inside, close to blue
 * wings: 26/19
 * Diff off 25
@@ -225,17 +228,35 @@ All tweaked by me, some of them are crap
 
 ### Las Vegas
 
+* Purple purple
+* Undercut
+* Corners 5, 14, 17 of 17
 * R R L L
 * Low wings
 * susp geo L -2 L 0.1
 * susp R 5 5 20 24 48
+* 100, ease around in 2nd then 5th, black, 100, white bridge, 150
 
 ### Qatar
 
+* Green overtake, Green speed
+* Overcut
+* Overtake corners 1 and 16 of 16
 * R L R L
 * Trim 1
 * Aero 25 38
 * both bars hard as can be
+* 50 ease around for all, except blues which are 75 and added road
+
+### Yas marina
+
+* Green overtake, orange speed
+* under and over cut equal
+* overtake corners 6 and 9 of 16
+* 25 25
+* 80 30
+* 41 1 2 15 20 45
+* R R L L
 
 # Effects
 
