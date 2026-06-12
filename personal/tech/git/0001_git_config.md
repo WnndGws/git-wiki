@@ -7,7 +7,7 @@ public: false
 
 # Cheatsheet
 
-* Generate PDF using `mmm`
+* Generate PDF using `mmm this_file.md --export pdf`
 
 ## DAILY WORKFLOW AT A GLANCE
 
