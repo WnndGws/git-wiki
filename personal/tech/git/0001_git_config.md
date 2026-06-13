@@ -235,36 +235,36 @@ During `git combine`, if conflicts appear:
 ## EXAMPLE DAY
 
 ```zsh
-$ git save "morning-base"
-  Saved checkpoint/morning-base at a1b2c3d
-
-  ...code... :W ...code... :W ...code... :W
+$ git save "refactor-work"
+## Saved checkpoint/refactor-work at a1b2c3d
+## Switches to it, use as the work location
+## ...code... :W ...code... :W ...code... :W
 
 $ git ok "auth flow done"
 $ git save "auth-works"
-  Saved checkpoint/auth-works at e4f5g6h
-
-  ...code... :W ...code... :W
+## Saved checkpoint/auth-works at e4f5g6h
+## ...code... :W ...code... :W
+$ git combine "auth-works"
 
 $ git try "redis caching"
-  ...doesn't work...
+## ...doesn't work...
 $ git nuke
 
 $ git try "in-memory cache"
-  ...works...
+## ...works...
 $ git ok "caching works"
 $ git save "cache-works"
+$ git combine "cache-works"
 
 $ git bloat 40
-  22 of 40 commits are try:autosave (55%)
+## 22 of 40 commits are try:autosave (55%)
 
-$ git squash 40
-  ...interactive rebase with delta diffs...
-  ...mark try:autosave as fixup or drop...
+$ git autodebloat 40
+## ...interactive rebase with delta diffs...
+## ...mark try:autosave as fixup or drop...
 
 $ git checkout main
-$ git combine "auth-works"
-$ git combine "cache-works"
+$ git combine refactor-work
 
 $ git releaseall
 $ git push
