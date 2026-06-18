@@ -7,4 +7,4 @@ public: false
 
 # Workflow
 
-* nvim `<leader>ww` will commit with
+* nvim `<leader>ww` will commit with message `try:autosave`
