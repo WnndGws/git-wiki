@@ -14,6 +14,4 @@ pactl set-default-sink bluez_output.00_04_32_9A_8E_96.1
 
 | device|mac|
 |--|--|
-| Atlas Air | 00:04:32:9A:8E:96
-
----
+| Atlas Air | 00:04:32:9A:8E:96|

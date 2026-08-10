@@ -1,13 +1,16 @@
 ---
-title: 0001-gpu-to-server
-author: Wynand Gouws
-date: 2026-04-12 14:37:39
+title: 0001-gpu-to-server,
+author: Wynand Gouws,
+date: 2026-04-12 14:37:39,
 public: true
 ---
 
+1) [Adding GTX-1070 to Ubuntu server](#adding-gtx-1070-to-ubuntu-server)
+2) [References](#references)
+
 # Adding GTX-1070 to Ubuntu server
 
-* Ran the following commands after using ArchWiki to determine which drivers are needed
+- Ran the following commands after using ArchWiki to determine which drivers are needed
 
 ```bash
 sudo add-apt-repository restricted multiverse
@@ -17,12 +20,14 @@ sudo ubuntu-drivers list
 sudo ubuntu-drivers install --gpgpu nvidia:580-server
 ```
 
-* NB reboot!!!
-* install `nvidia-utils-580-server`
+> [!IMPORTANT]
+> NB reboot!!!
+
+- install `nvidia-utils-580-server`
 
 # References
 
-* freedesktop.org (2025). CodeNames.freedesktop.org. <https://nouveau.freedesktop.org/CodeNames.html#NV130>
-* ArchWiki (2026). NVIDIA - ArchWiki. <https://wiki.archlinux.org/title/NVIDIA>
-* UbuntuHandbook (2026). Ubuntu Added NVIDIA 580 Driver Support for 24.04, 22.04 26.04 UbuntuHandbook. <https://ubuntuhandbook.org/index.php/2025/09/ubuntu-added-nvidia-580-driver>
-* Foundation, U. (2025). NVIDIA drivers installation. <https://ubuntu.com/server/docs/how-to/graphics/install-nvidia-drivers>
+- freedesktop.org (2025). CodeNames.freedesktop.org. <https://nouveau.freedesktop.org/CodeNames.html#NV130>
+- ArchWiki (2026). NVIDIA - ArchWiki. <https://wiki.archlinux.org/title/NVIDIA>
+- UbuntuHandbook (2026). Ubuntu Added NVIDIA 580 Driver Support for 24.04, 22.04 26.04 UbuntuHandbook. <https://ubuntuhandbook.org/index.php/2025/09/ubuntu-added-nvidia-580-driver>
+- Foundation, U. (2025). NVIDIA drivers installation. <https://ubuntu.com/server/docs/how-to/graphics/install-nvidia-drivers>
