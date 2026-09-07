@@ -2,12 +2,18 @@
 title: 0007-precommit
 author: Wynand Gouws
 date: 2026-09-02 17:16:34
-public: false
+public: true
 ---
 
 # Using pre-commit
 
-- These are more general tools to use along side the normal linters in my nvim
+> [!INFO]
+> See [my boilerplate repo](https://github.com/wnndgws/boilerplate-repo) for how
+> I have implemented this.
+>
+> The repo is almost certainly more up to date than the wiki
+
+- These are more general tools to use alongside the normal linters in my nvim
   config
 
 ## Prek
@@ -40,33 +46,37 @@ repos:
 
 ### Trufflehog
 
-```yaml
-repos:
-  - repo: local
-    hooks:
-      - id: trufflehog
-        name: TruffleHog
-        description: Detect secrets in your data.
-        entry: bash -c 'trufflehog git file://.'
-        language: system
-        stages: ["pre-commit", "pre-push"]
+```toml
+[[repos]]
+repo = local
+hooks = [
+{
+  id = "trufflehog",
+  name = "TruffleHog",
+  description = "Detect secrets in your data.", 
+  entry = "bash -c 'trufflehog git file://.'", 
+  language = "system",
+  stages = ["pre-commit", "pre-push"]
+}]
+
 ```
 
 ### Pyrefly
 
 - Custom hook for pyrefly infer
 
-```yaml
-repos:
-  - repo: local
-    hooks:
-      - id: pyrefly-infer
-        name: Pyrefly Infer (type annotation generation)
-        entry: pyrefly infer
-        language: system
-        pass_filenames: true
-        types: [python]
-        files: ^.*\.py$
+```toml
+[[repos]]
+repo = "local"
+hooks = [{
+id = "pyrefly-infer",
+name = "Pyrefly Infer (type annotation generation)",
+entry = "pyrefly infer",
+language = "system",
+pass_filenames = true,
+types = ["python"],
+files = '^.*\.py$',
+}]
 ```
 
 - Then the official pyrefly-check
