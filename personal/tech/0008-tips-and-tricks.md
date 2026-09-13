@@ -9,7 +9,26 @@ public: true
 * A series of interesting Linux/zsh/etc tips picked up along the way
 
 ## SSH
-* Test [^1]
+### SSH Shortcuts [^1]
+* Add the something like these to be able to `ssh tiger` or `ssh tiger-t`
+```~/.ssh/config
+# Server I want to connect to
+Host tiger*
+    Hostname tiger.princeton.edu
+    User kl5675
+
+# Tunnel that I might use sometimes
+Host tigressgateway
+    Hostname tigressgateway.princeton.edu
+    User kl5675
+
+Host *-t
+    ProxyJump tigressgateway
+
+```
+
+## ZSH
+* Terminal command `fc` opens the last run command in `$EDITOR`
 
 # References
 * [1]:
