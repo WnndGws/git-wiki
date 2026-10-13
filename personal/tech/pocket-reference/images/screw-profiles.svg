@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1470" width="760" height="1470"
+    role="img"
+    aria-label="Side profiles of nine screw head shapes with head diameter or across-flats dimension labelled">
+    <title>Common screw head profiles, side view</title>
+
+    <defs>
+        <marker id="dimStart" viewBox="0 0 10 10" refX="0" refY="5"
+            markerWidth="8" markerHeight="8" orient="auto">
+            <path d="M10,0 L0,5 L10,10 Z" fill="#000000" />
+        </marker>
+        <marker id="dimEnd" viewBox="0 0 10 10" refX="10" refY="5"
+            markerWidth="8" markerHeight="8" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#000000" />
+        </marker>
+    </defs>
+
+    <style>
+    .h1   { font-family:"DejaVu Sans",Helvetica,Arial,sans-serif; font-size:19px; font-weight:bold; fill:#000; text-anchor:middle; }
+    .ttl  { font-family:"DejaVu Sans",Helvetica,Arial,sans-serif; font-size:13px; font-weight:bold; fill:#000; text-anchor:middle; }
+    .dim  { font-family:"DejaVu Sans",Helvetica,Arial,sans-serif; font-size:11px; font-style:italic; fill:#000; text-anchor:middle; }
+    .ang  { font-family:"DejaVu Sans",Helvetica,Arial,sans-serif; font-size:9px; fill:#000; }
+    .lab  { font-family:"DejaVu Sans",Helvetica,Arial,sans-serif; font-size:12px; fill:#000; text-anchor:middle; }
+    .out  { fill:#fff; stroke:#000; stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; }
+    .shk  { fill:none; stroke:#000; stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; }
+    .dash { fill:none; stroke:#000; stroke-width:1.4; stroke-dasharray:4 3; }
+    .ext  { stroke:#000; stroke-width:1; }
+    .diml { stroke:#000; stroke-width:1.2; marker-start:url(#dimStart); marker-end:url(#dimEnd); }
+    .pane { fill:none; stroke:#bbb; stroke-width:1; }
+  </style>
+
+    <rect width="100%" height="100%" fill="#ffffff" />
+    <text class="h1" x="380" y="40">Common screw head profiles (side view)</text>
+
+    <!-- ============================ ROW 1 ============================ -->
+
+    <!-- FLAT -->
+    <g transform="translate(20,70)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Flat</text>
+        <path class="out" d="M75,180 H165 L138,232 H102 Z" />
+        <path class="shk" d="M102,232 V275 H138 V232" />
+        <line class="ext" x1="75" y1="180" x2="75" y2="118" />
+        <line class="ext" x1="165" y1="180" x2="165" y2="118" />
+        <line class="diml" x1="75" y1="124" x2="165" y2="124" />
+        <text class="dim" x="120" y="118">D</text>
+        <text class="ang" x="170" y="222">82° / 90°</text>
+    </g>
+
+    <!-- BUGLE -->
+    <g transform="translate(260,70)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Bugle</text>
+        <path class="out" d="M75,180 H165 Q140,208 138,220 H102 Q100,208 75,180 Z" />
+        <path class="shk" d="M102,220 V275 H138 V220" />
+        <line class="ext" x1="75" y1="180" x2="75" y2="118" />
+        <line class="ext" x1="165" y1="180" x2="165" y2="118" />
+        <line class="diml" x1="75" y1="124" x2="165" y2="124" />
+        <text class="dim" x="120" y="118">D</text>
+        <text class="ang" x="172" y="210">82°</text>
+    </g>
+
+    <!-- OVAL -->
+    <g transform="translate(500,70)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Oval</text>
+        <path class="out" d="M75,180 Q120,140 165,180 L138,232 H102 Z" />
+        <path class="shk" d="M102,232 V275 H138 V232" />
+        <line class="ext" x1="75" y1="180" x2="75" y2="118" />
+        <line class="ext" x1="165" y1="180" x2="165" y2="118" />
+        <line class="diml" x1="75" y1="124" x2="165" y2="124" />
+        <text class="dim" x="120" y="118">D</text>
+        <text class="ang" x="170" y="222">82° / 90°</text>
+    </g>
+
+    <!-- ============================ ROW 2: PAN / BUTTON / TRUSS ============================ -->
+    <g transform="translate(20,420)">
+        <rect class="pane" x="0" y="0" width="716" height="330" />
+        <text class="ttl" x="358" y="24">Pan / Button / Truss</text>
+
+        <!-- Pan -->
+        <path class="out" d="M81,180 V168 Q119,140 157,168 V180 Z" />
+        <path class="shk" d="M101,180 V275 H137 V180" />
+        <line class="ext" x1="81" y1="180" x2="81" y2="118" />
+        <line class="ext" x1="157" y1="180" x2="157" y2="118" />
+        <line class="diml" x1="81" y1="124" x2="157" y2="124" />
+        <text class="dim" x="119" y="118">D</text>
+        <text class="lab" x="119" y="305">Pan</text>
+
+        <!-- Button -->
+        <path class="out" d="M324,180 V174 Q358,150 392,174 V180 Z" />
+        <path class="shk" d="M340,180 V275 H376 V180" />
+        <line class="ext" x1="324" y1="180" x2="324" y2="118" />
+        <line class="ext" x1="392" y1="180" x2="392" y2="118" />
+        <line class="diml" x1="324" y1="124" x2="392" y2="124" />
+        <text class="dim" x="358" y="118">D</text>
+        <text class="lab" x="358" y="305">Button</text>
+
+        <!-- Truss -->
+        <path class="out" d="M552,180 V176 Q597,156 642,176 V180 Z" />
+        <path class="shk" d="M579,180 V275 H615 V180" />
+        <line class="ext" x1="552" y1="180" x2="552" y2="118" />
+        <line class="ext" x1="642" y1="180" x2="642" y2="118" />
+        <line class="diml" x1="552" y1="124" x2="642" y2="124" />
+        <text class="dim" x="597" y="118">D</text>
+        <text class="lab" x="597" y="305">Truss</text>
+    </g>
+
+    <!-- ============================ ROW 3 ============================ -->
+
+    <!-- CHEESE -->
+    <g transform="translate(20,770)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Cheese</text>
+        <path class="out" d="M88,180 V158 Q88,154 92,154 H148 Q152,154 152,158 V180 Z" />
+        <path class="shk" d="M102,180 V275 H138 V180" />
+        <line class="ext" x1="88" y1="154" x2="88" y2="118" />
+        <line class="ext" x1="152" y1="154" x2="152" y2="118" />
+        <line class="diml" x1="88" y1="124" x2="152" y2="124" />
+        <text class="dim" x="120" y="118">D</text>
+    </g>
+
+    <!-- ROUND -->
+    <g transform="translate(260,770)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Round</text>
+        <path class="out" d="M86,180 V174 Q120,118 154,174 V180 Z" />
+        <path class="shk" d="M102,180 V275 H138 V180" />
+        <line class="ext" x1="86" y1="174" x2="86" y2="118" />
+        <line class="ext" x1="154" y1="174" x2="154" y2="118" />
+        <line class="diml" x1="86" y1="124" x2="154" y2="124" />
+        <text class="dim" x="120" y="118">D</text>
+    </g>
+
+    <!-- HEX -->
+    <g transform="translate(500,770)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Hex</text>
+        <path class="out" d="M90,180 V162 L95,154 H145 L150,162 V180 Z" />
+        <path class="shk" d="M102,180 V275 H138 V180" />
+        <line class="ext" x1="90" y1="162" x2="90" y2="118" />
+        <line class="ext" x1="150" y1="162" x2="150" y2="118" />
+        <line class="diml" x1="90" y1="124" x2="150" y2="124" />
+        <text class="dim" x="120" y="118">S</text>
+    </g>
+
+    <!-- ============================ ROW 4 ============================ -->
+
+    <!-- HEX FLANGE -->
+    <g transform="translate(130,1120)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Hex flange</text>
+        <path class="out" d="M82,180 V170 Q82,168 86,168 H154 Q158,168 158,170 V180 Z" />
+        <path class="out" d="M94,168 V150 L99,142 H141 L146,150 V168 Z" />
+        <path class="shk" d="M102,180 V275 H138 V180" />
+        <line class="ext" x1="82" y1="168" x2="82" y2="118" />
+        <line class="ext" x1="158" y1="168" x2="158" y2="118" />
+        <line class="diml" x1="82" y1="124" x2="158" y2="124" />
+        <text class="dim" x="120" y="118">D</text>
+    </g>
+
+    <!-- SOCKET HEAD CAP -->
+    <g transform="translate(390,1120)">
+        <rect class="pane" x="0" y="0" width="236" height="330" />
+        <text class="ttl" x="120" y="24">Socket head cap</text>
+        <path class="out" d="M93,180 V150 Q93,144 99,144 H141 Q147,144 147,150 V180 Z" />
+        <path class="dash" d="M108,144 V164 H132 V144" />
+        <path class="shk" d="M102,180 V275 H138 V180" />
+        <line class="ext" x1="93" y1="144" x2="93" y2="118" />
+        <line class="ext" x1="147" y1="144" x2="147" y2="118" />
+        <line class="diml" x1="93" y1="124" x2="147" y2="124" />
+        <text class="dim" x="120" y="118">D</text>
+    </g>
+</svg>
